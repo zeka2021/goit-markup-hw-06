@@ -401,6 +401,43 @@
                 <svg class="modal-close-btn-icon">
                     <use href="./imgdz/sprite.svg#icon-close-black-18dp-2-1" width="18px" height="18px"></use>
                 </svg></button>
+            <form action="#" class="modal-form">
+                <b class="modal-form-headline">Оставьте свои данные, мы вам перезвоним</b>
+
+                <label for="user-name" class="modal-form-field">Имя</label>
+                <div class="modal-form-input-wrapper">
+                    <input id="user-name" type="text" name="user-name" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./imgdz/sprite.svg#icon-person-black-18dp-1" width="18px" height="18px">
+                        </use>
+                    </svg>
+                </div>
+
+                <label for="user-phon" class="modal-form-field">Телефон</label>
+                <div class="modal-form-input-wrapper">
+                    <input id="user-phon" type="tel" name="user-phon" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./imgdz/sprite.svg#icon-phone-black-18dp-1" width="18px" height="18px"></use>
+                    </svg>
+                </div>
+
+                <label for="user-imail" class="modal-form-field">Почта</label>
+                <div class="modal-form-input-wrapper">
+                    <input id="user-imail" type="imail" name="user-imail" class="modal-form-input">
+                    <svg class="modal-form-icon">
+                        <use href="./imgdz/sprite.svg#icon-email-black-18dp-1" width="18px" height="18px"></use>
+                    </svg>
+                </div>
+
+                <label class="modal-form-field">
+                    Комментарий
+                    <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+                </label>
+                <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
+                <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю&nbsp;
+                    <a class="link modal-form-link" href="">Условия договора</a></label>
+                <button type="submit" class="modal-form-btn">Отправить</button>
+            </form>
         </div>
     </div>
     <script src="./css/js/modal.js"></script>

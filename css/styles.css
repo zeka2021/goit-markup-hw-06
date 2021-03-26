@@ -667,7 +667,14 @@ transform: translateY(0);
 .address-element:not(:last-child) {
   padding-bottom: 9px;
 }
-
+.form-footer {
+  display: flex;
+  flex-direction: column;
+}
+.form-input-wrapper {
+  display: flex;
+  align-items: center;
+}
 /*===========endportfolio======*/
 .backdrop {
   position: fixed;

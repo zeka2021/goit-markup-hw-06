@@ -10,6 +10,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto+Slab:wght@400;500;700;900&display=swap"
         rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/modern-normalize@1.0.0/modern-normalize.css" />
+
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
@@ -392,17 +393,19 @@
                     </li>
                 </ul>
             </div>
-            <form class="form-footer">
-                <b class="form-headline">Подпишитесь на рассылку</b>
-                <div class="form-input-wrapper">
-                    <label for="imail" type="imail" name="imail" class="form-field">E-mail</label>
-                    <input id="imail" type="imail" name="imail" class="form-input">
-                    <button type="submit" class="form-btn">Подписаться<svg class="form-icon" width="24px" height="24px">
-                            <use href="./imgdz/sprite.svg#icon-icon-send"></use>
-                        </svg>
-                    </button>
-                </div>
-            </form>
+            <div class="footer-box-3">
+                <form class="form-footer">
+                    <b class="footer-text">Подпишитесь на рассылку</b>
+                    <div class="form-input-wrapper">
+                        <input id="imail" type="imail" name="imail" class="form-input" placeholder="E-mail">
+                        <button type="submit" class="form-btn model-btn">Подписаться<svg class="form-icon" width="24px"
+                                height="24px">
+                                <use href="./imgdz/sprite.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
     </footer>
 
@@ -442,7 +445,9 @@
 
                 <label class="modal-form-field">
                     Комментарий
-                    <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+                    <div class="modal-form-input-wrapper">
+                        <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+                    </div>
                 </label>
                 <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
                 <label for="user-term" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю&nbsp;
